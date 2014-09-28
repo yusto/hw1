@@ -1,4 +1,4 @@
-Rails Decal Homework 1
+Rails Decal Homework 1 (Due Sunday 10/5 11:59 PM)
 ---------------------
 
 For homework 1 we are going to make a dynamic website that contains a static page about yourself and dynamic pages that work with the User model.  The main page will be an index of all the users in your database.  Clicking on one of the users will give you a detailed view of the user.
@@ -28,6 +28,23 @@ Last class, we found that many students had trouble with migrations, so we are i
 
 http://guides.rubyonrails.org/migrations.html
 
+
+**How To Get Started and Submit:**
+
+First fork this repository to your github by clicking fork in the top right.  Next in your terminal type (and make sure you aren't inside a rails app):
+
+  $ git clone github.com/YOURGITHUBHANDLE/hw1
+
+This should copy the repository into your local directory.  You should do all your work in this directory.  When you are done just run:
+
+  $ git commit -am "Done"
+
+Then push it to your remote reposity with:
+
+  $ git push origin HEAD
+
+After that fill out the google doc at  https://docs.google.com/forms/d/1qJu2LdfrZnM1C8F626PJRkgFAKCylcR2rcfg87hf-Lc/viewform?usp=send_form so we know where to look for your work.  This is due Sunday 10/5 11:59 PM
+
 **What To Do:**
 
 Let's say one day we had a genius idea of making a website that would be a database of users that people can use for data mining, cloud, big data or whatever buzzword is in nowadays.  We would first make a user index page. That is, a page that lists all the users.
@@ -49,7 +66,7 @@ Let's say one day we had a genius idea of making a website that would be a datab
   This rails generate command creates a user model so that our rails application can interact with the user data and a migration file.  A migration file is a script that gives the database commands such as creating tables, adding columns, and removing
   columns.  Important: we should NEVER edit an old migration file directly.  We should ONLY add migrations.  If we don't, we'll end up with inconsistencies between the database and our app. The rails generate model tells rails that we are adding a model called User and that it has two fields, a name which is a string, and years_old which is an integer.  To run our migration script we type in the command:
 
-    rake db:migrate
+    $ rake db:migrate
 
   This will tell rails the read the migration files and run their commands.  Now refresh your root page and it should now be working.  The page is pretty empty because there are no users in the database, which is pretty boring.  To add users into our database
   we can open our rails console (think about it as running our app without views) by typing:
