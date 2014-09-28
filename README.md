@@ -33,9 +33,9 @@ http://guides.rubyonrails.org/migrations.html
 
 First fork this repository to your github by clicking fork in the top right.  Next in your terminal type (and make sure you aren't inside a rails app):
 
-  $ git clone github.com/YOURGITHUBHANDLE/hw1
+  $ git clone https://github.com/YOURGITHUBHANDLE/hw1
 
-This should copy the repository into your local directory.  You should do all your work in this directory.  When you are done just run:
+Replace YOURGITHUBHANDLE with your actual Github handle.  This should copy the repository into your local directory.  You should do all your work in this directory.  When you are done just run:
 
   $ git commit -am "Done"
 
