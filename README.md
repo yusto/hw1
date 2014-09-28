@@ -45,6 +45,10 @@ Then push it to your remote reposity with:
 
 After that fill out the google doc at  https://docs.google.com/forms/d/1qJu2LdfrZnM1C8F626PJRkgFAKCylcR2rcfg87hf-Lc/viewform?usp=send_form so we know where to look for your work.  This is due Sunday 10/5 11:59 PM
 
+Just to make sure you have all the gems at the beginning run in your shell:
+
+ $ bundle install
+
 **What To Do:**
 
 Let's say one day we had a genius idea of making a website that would be a database of users that people can use for data mining, cloud, big data or whatever buzzword is in nowadays.  We would first make a user index page. That is, a page that lists all the users.
