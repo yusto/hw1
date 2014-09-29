@@ -132,7 +132,10 @@ end
 
     get '/user/new', to: 'CONTROLLER#FUNCTION', as: 'users'
 
-  Try to figure out what to replace CONTROLLER and FUNCTION with (Look at how routed the show and the about page).  The 'as:' hash simply allows rails to refer to the route in code as users_path which is useful for making our form.  After we finish the routing we should click the Add User button on the top left to check to see if we get to the new page.  If that works
+  Try to figure out what to replace CONTROLLER and FUNCTION with (Look at how routed the show and the about page).
+  The 'as:' hash simply allows rails to refer to the route in code as users_path which is useful for making our form.
+  Make sure to add the new route before the show route, as the order of your routes is important.
+  After we finish the routing we should click the Add User button on the top left to check to see if we get to the new page.  If that works
   try adding users by inputting names, clicking create, and clicking on home to check.
 
 **Adding years_old to form input:**
