@@ -39,7 +39,7 @@ Replace YOURGITHUBHANDLE with your actual Github handle.  This should copy the r
 
   $ git commit -am "Done"
 
-Then push it to your remote reposity with:
+Then push it to your remote repository with:
 
   $ git push origin HEAD
 
