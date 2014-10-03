@@ -55,7 +55,7 @@ Let's say one day we had a genius idea of making a website that would be a datab
 
 **Your User Index Page:**
 
-  The user index method in the controller will be the root of this app.  We already created the user controller and the view so don't worry about that yet. In your routes.rb file add:
+  The user index method in the controller will be the root of this app.  We already created the user controller and the view so don't worry about that yet. In your config/routes.rb file add:
 
 ```ruby
   root 'users#index'
