@@ -39,7 +39,7 @@ Replace YOURGITHUBHANDLE with your actual Github handle.  This should copy the r
 
   $ git add .
 
-  $ git commit -m "Done"
+  $ git commit -am "Done"
 
 Then push it to your remote repository with:
 
